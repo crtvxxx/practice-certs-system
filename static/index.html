@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Колледж: заказ справок</title>
+</head>
+<body>
+  <script>
+    const token = localStorage.getItem('access_token');
+    if (token) {
+      window.location.replace('/static/dashboard.html');
+    } else {
+      window.location.replace('/static/login.html');
+    }
+  </script>
+</body>
+</html>
