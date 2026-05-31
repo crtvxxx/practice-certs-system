@@ -1,0 +1,27 @@
+certs/
+|- backend/
+|  |- routers/
+|  |  |- __init__.py
+|  |  |- users.py
+|  |  +- orders.py
+|  |- __init__.py
+|  |- main.py
+|  |- schemas.py
+|  |- models.py
+|  |- database.py
+|  |- auth.py
+|  +- config.py
+|- static/
+|  |- js/
+|  |  |- api.js
+|  |  |- auth.js
+|  |  +- dashboard.js
+|  |- css/
+|  |  +- styles.css
+|  |- index.html
+|  |- login.html
+|  |- register.html
+|  +- dashboard.html
+|- requirements.txt
+|- structure.txt
++- .env
